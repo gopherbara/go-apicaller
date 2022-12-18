@@ -1,0 +1,40 @@
+[
+  {
+    "asset_id": "BTC",
+    "name": "Bitcoin",
+    "type_is_crypto": 1,
+    "data_quote_start": "2014-02-24T17:43:05.0000000Z",
+    "data_quote_end": "2022-12-16T00:00:00.0000000Z",
+    "data_orderbook_start": "2014-02-24T17:43:05.0000000Z",
+    "data_orderbook_end": "2022-12-16T00:00:00.0000000Z",
+    "data_trade_start": "2010-07-17T23:09:17.0000000Z",
+    "data_trade_end": "2022-12-16T00:00:00.0000000Z",
+    "data_symbols_count": 125259,
+    "volume_1hrs_usd": 1024629974996784732.69,
+    "volume_1day_usd": 286424417251740384536.25,
+    "volume_1mth_usd": 9019514041577955197791.26,
+    "price_usd": 16862.113616668580497772801031,
+    "id_icon": "4caf2b16-a017-4e26-a348-2cea69c34cba",
+    "data_start": "2010-07-17",
+    "data_end": "2022-12-16"
+  },
+  {
+    "asset_id": "ETH",
+    "name": "Ethereum",
+    "type_is_crypto": 1,
+    "data_quote_start": "2015-08-07T14:50:38.1774950Z",
+    "data_quote_end": "2022-12-16T00:00:00.0000000Z",
+    "data_orderbook_start": "2015-08-07T14:50:38.1774950Z",
+    "data_orderbook_end": "2022-12-16T00:00:00.0000000Z",
+    "data_trade_start": "2015-08-07T15:21:48.1062520Z",
+    "data_trade_end": "2022-12-16T00:00:00.0000000Z",
+    "data_symbols_count": 99204,
+    "volume_1hrs_usd": 1053360355693.49,
+    "volume_1day_usd": 19189044073189.79,
+    "volume_1mth_usd": 1953635798395567.08,
+    "price_usd": 1202.2998583516309315625956664,
+    "id_icon": "604ae453-3d9f-4ad0-9a48-9905cce617c2",
+    "data_start": "2015-08-07",
+    "data_end": "2022-12-16"
+  }
+]

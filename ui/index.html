@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Api Stats</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <div class="main">
+        <h1 class="card-title"> Usefull Stats from diffrent APIs</h1>
+        <div class="inline card">
+            <img class="card-img" src="https://picsum.photos/150" alt="random picture">
+            <div class="api-quote">
+                <h2 class="card-subtitle">Quote of the day:</h2>
+                <p id="api-quote-value"></p>
+            </div>
+        </div>
+        <div class="inline card api-weather">
+            <h2 class="card-subtitle"> Weather:</h2>
+
+            <!-- Here gonna be temp in C & K, wind dir, wind speed in KPH & MPH, clouds-->
+        </div>
+        <div class="inline card api-currency">
+            <h2 class="card-subtitle"> Currency Rates:</h2>
+
+        </div>
+        <div class="inline card api-stocks">
+            <h2 class="card-subtitle"> Stock Prices:</h2>
+        </div>
+        <div class="inline card api-crypto">
+            <h2 class="card-subtitle">Crypto Prices:</h2>
+        </div>
+        <div class="inline card api-geolocation">
+            <h2 class="card-subtitle"> You Now in:</h2>
+        </div>
+
+    </div>
+
+<script src="scripts/socket.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "General Settings" : {
+    "isprod": true,
+    "previousperiod" : -1
+  },
+  "Weather":{
+    "description": "get weather in your city",
+    "url": "https://weatherapi-com.p.rapidapi.com/current.json?q=",
+    "apihost": "weatherapi-com.p.rapidapi.com",
+    "city": "Rivne",
+    "nolimit" : false,
+    "apitype" : "weather"
+  },
+  "ChuckNorrisQuotes": {
+    "description": "get random Chuck Norris` quote",
+    "url": "https://api.chucknorris.io/jokes/random",
+    "nolimit" : true,
+    "apitype" : "quotes"
+  },
+  "ExchangeRates" : {
+    "description": "get currency rates with your as base",
+    "url" : "https://api.apilayer.com/exchangerates_data/latest?",
+    "base" : "UAH",
+    "currencies":["USD", "EUR", "JPY", "CAD"],
+    "nolimit" : false,
+    "apitype" : "currency"
+  },
+  "AlphaVantage" : {
+    "description": "get stock prices",
+    "url" : "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&",
+    "stock" : "MSFT",
+    "interval": "5min",
+    "nolimit" : false,
+    "apitype" : "stocks"
+  },
+  "CoinApi": {
+    "description": "get crypto info",
+    "url" : "https://rest.coinapi.io/v1/assets",
+    "cryptos": ["BTC","ETH"],
+    "nolimit" : false,
+    "apitype" : "crypto"
+  },
+  "IpApi": {
+    "description": "get geolocation by ip",
+    "url" : "http://ip-api.com/json",
+    "ip": "",
+    "nolimit" : true,
+    "apitype" : "geolocation"
+  }
+}

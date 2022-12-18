@@ -1,0 +1,1 @@
+{"categories":[],"created_at":"2020-01-05 13:42:26.194739","icon_url":"https://assets.chucknorris.host/img/avatar/chuck-norris.png","id":"0O1XJ7RMR_iTaNB5fcMV4g","updated_at":"2020-01-05 13:42:26.194739","url":"https://api.chucknorris.io/jokes/0O1XJ7RMR_iTaNB5fcMV4g","value":"Chuck Norris was about to send an email when he realized it'd be faster to run. \""}
