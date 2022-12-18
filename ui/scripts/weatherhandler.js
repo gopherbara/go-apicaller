@@ -25,14 +25,6 @@ export function handleWeather(obj) {
 
         weatherDifference[0].forEach((value, index) => {
             let item = FillApiItemGrowth(value, weatherObj.prev_period, weatherObj.last_updated, false)
-            // let item = document.createElement('div');
-            // item.className="api-item"
-            // let objChange = document.createElement('p');
-            // let change = document.createElement('p');
-            // objChange.innerText = value.object_change
-            // change.innerText = value.today_value + " (" + value.growth + ")"
-            // item.appendChild(objChange)
-            // item.appendChild(change)
             apiWeather[0].appendChild(item)
         });
 

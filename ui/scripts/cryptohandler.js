@@ -20,15 +20,6 @@ export function handleCrypto(obj) {
         let cryptoPrices = new Map(Object.entries(crypto.crypto_change))
         cryptoPrices.forEach((value, key) => {
             let item = FillApiItemGrowth(value, crypto.prev_period, crypto.last_updated, true)
-            // let item = document.createElement('div');
-            // item.className="api-item"
-            // let cryptoName = document.createElement('p');
-            // let todayPrice = document.createElement('p');
-            // cryptoName.innerText = key
-            // todayPrice.innerHTML = value.today_value + "&#36; (" + value.growth + ")"
-            // item.appendChild(cryptoName)
-            // item.appendChild(todayPrice)
-
             apicrypto[0].appendChild(item)
         });
     }

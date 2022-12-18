@@ -24,16 +24,6 @@ export function handleCurrency(obj) {
         let currencyRates = new Map(Object.entries(currency.currency_rates))
         currencyRates.forEach((value, key) => {
             let item = FillApiItemGrowth(value, currency.prev_period, currency.last_updated, false)
-            // let item = document.createElement('div');
-            // item.className="api-item"
-            // let curr = document.createElement('p');
-            // let todayRate = document.createElement('p');
-            // curr.innerHTML = key + " <span title='some &#10; text' class='in-circle'>&#63;</span>"
-            // //todayRate.innerHTML = value.today_value + " <span class='arrow'><bold>&#x2B9D;</bold>"+ value.growth + "% </span>"
-            // todayRate.innerHTML = `${value.today_value} <span title="previous value: ${value.previous_value}" class="arrow">&#x2B9D;${value.growth}% </span>`
-            // item.appendChild(curr)
-            // item.appendChild(todayRate)
-
             apiCurrency[0].appendChild(item)
         });
     }

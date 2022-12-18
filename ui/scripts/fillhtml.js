@@ -15,7 +15,6 @@ export function FillApiItemGrowth(value, prevPeriod, lastUpdated, addDollar) {
     } else {
         objGrowth.innerHTML = `${value.today_value}${dollar} <span title="previous value: ${value.previous_value}${dollar}" class="growth-down">&#x2B9F;${value.growth}% </span>`;
     }
-    //objGrowth.innerHTML = `${value.today_value} <span title="previous value: ${value.previous_value}" class="growth-up">&#x2B9D;${value.growth}% </span>`;
     item.appendChild(objName);
     item.appendChild(objGrowth);
     return item;

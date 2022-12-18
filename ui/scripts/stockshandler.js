@@ -20,15 +20,6 @@ export function handleStocks(obj) {
         let stocksPrices = new Map(Object.entries(stocks.stocks_change))
         stocksPrices.forEach((value, key) => {
             let item = FillApiItemGrowth(value, stocks.prev_period, stocks.last_updated, true)
-            // let item = document.createElement('div');
-            // item.className="api-item"
-            // let stocksName = document.createElement('p');
-            // let todayPrice = document.createElement('p');
-            // stocksName.innerText = key
-            // todayPrice.innerText = value.today_value + " (" + value.growth + ")"
-            // item.appendChild(stocksName)
-            // item.appendChild(todayPrice)
-
             apistocks[0].appendChild(item)
         });
     }
