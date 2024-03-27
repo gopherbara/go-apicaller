@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
+	"github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
 )
 
 const (

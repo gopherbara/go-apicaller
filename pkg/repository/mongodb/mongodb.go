@@ -3,8 +3,8 @@ package mongodb
 import (
 	"context"
 	"fmt"
+	"github.com/gopherbara/go-apicaller/pkg/repository"
 	"github.com/spf13/viper"
-	"github.com/vv-projects/go-apicaller/pkg/repository"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"

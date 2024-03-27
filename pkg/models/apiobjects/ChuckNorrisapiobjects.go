@@ -1,7 +1,7 @@
 package apiobjects
 
 import (
-	"github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
+	"github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
 )
 
 type ChuckNorrisQuotesSettings struct {

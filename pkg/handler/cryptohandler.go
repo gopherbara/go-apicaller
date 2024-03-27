@@ -2,11 +2,11 @@ package handler
 
 import (
 	"encoding/json"
-	"github.com/vv-projects/go-apicaller/pkg/apihandler"
-	"github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
-	"github.com/vv-projects/go-apicaller/pkg/service"
-	"github.com/vv-projects/go-apicaller/pkg/socket"
-	"github.com/vv-projects/go-apicaller/pkg/utils"
+	"github.com/gopherbara/go-apicaller/pkg/apihandler"
+	"github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
+	"github.com/gopherbara/go-apicaller/pkg/service"
+	"github.com/gopherbara/go-apicaller/pkg/socket"
+	"github.com/gopherbara/go-apicaller/pkg/utils"
 	"time"
 )
 

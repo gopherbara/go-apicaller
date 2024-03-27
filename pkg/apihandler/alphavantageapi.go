@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/vv-projects/go-apicaller/pkg/models/apiobjects"
+	"github.com/gopherbara/go-apicaller/pkg/models/apiobjects"
 	"io/ioutil"
 	"log"
 	"net/http"

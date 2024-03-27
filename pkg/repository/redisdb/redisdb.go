@@ -3,8 +3,8 @@ package redisdb
 import (
 	"fmt"
 	"github.com/go-redis/redis"
+	"github.com/gopherbara/go-apicaller/pkg/repository"
 	"github.com/spf13/viper"
-	"github.com/vv-projects/go-apicaller/pkg/repository"
 	"os"
 )
 

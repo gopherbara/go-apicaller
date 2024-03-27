@@ -1,15 +1,9 @@
 package service
 
 import (
-	"github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
-	"github.com/vv-projects/go-apicaller/pkg/repository"
+	"github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
+	"github.com/gopherbara/go-apicaller/pkg/repository"
 )
-
-//type Weather interface {
-//	CreateWeatherItem(weather baseobjects.WeatherObject) error
-//	GetWeatherByStrDate(date string) (baseobjects.WeatherObject, error)
-//	//GetWeatherByDate(date time.Time) (baseobjects.WeatherObject, error)
-//}
 
 type ObjectType interface {
 	baseobjects.WeatherObject | baseobjects.QuotesObject

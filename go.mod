@@ -1,4 +1,4 @@
-module github.com/vv-projects/go-apicaller
+module github.com/gopherbara/go-apicaller
 
 go 1.18
 

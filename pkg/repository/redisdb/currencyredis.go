@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-redis/redis"
-	"github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
-	"github.com/vv-projects/go-apicaller/pkg/repository"
+	"github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
+	"github.com/gopherbara/go-apicaller/pkg/repository"
 	"strings"
 )
 

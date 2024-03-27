@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
-	"github.com/vv-projects/go-apicaller/pkg/repository"
+	"github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
+	"github.com/gopherbara/go-apicaller/pkg/repository"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

@@ -1,6 +1,6 @@
 package apiobjects
 
-import "github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
+import "github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
 
 type WeatherSettings struct {
 	General     GeneralSettings

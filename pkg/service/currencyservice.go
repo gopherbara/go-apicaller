@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/vv-projects/go-apicaller/pkg/models/baseobjects"
-	"github.com/vv-projects/go-apicaller/pkg/repository"
+	"github.com/gopherbara/go-apicaller/pkg/models/baseobjects"
+	"github.com/gopherbara/go-apicaller/pkg/repository"
 	"log"
 	"math/rand"
 )
